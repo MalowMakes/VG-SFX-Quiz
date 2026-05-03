@@ -5,6 +5,9 @@
 **/dist/
 **/build/
 
+# Audio files
+backend/uploads/
+
 # Environment variables / Secrets
 **/.env
 **/.env.local
