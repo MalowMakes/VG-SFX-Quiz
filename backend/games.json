@@ -1,8 +1,362 @@
 [
   {
     "id": 1,
-    "title": "Star Wars",
+    "title": "Super Mario Bros.",
     "audioUrl": "/sounds/a1.mp3",
-    "options": ["Mario"]
+    "options": ["Super Mario Bros.", "Mario", "SMB"]
+  },
+  {
+    "id": 2,
+    "title": "World of Warcraft",
+    "audioUrl": "/sounds/a2.mp3",
+    "options": ["World of Warcraft", "WoW"]
+  },
+  {
+    "id": 3,
+    "title": "Superhot",
+    "audioUrl": "/sounds/a3.mp3",
+    "options": ["Superhot"]
+  },
+  {
+    "id": 4,
+    "title": "Half-Life",
+    "audioUrl": "/sounds/a4.mp3",
+    "options": ["Half-Life", "Half Life", "HL1"]
+  },
+  {
+    "id": 5,
+    "title": "Resident Evil 4",
+    "audioUrl": "/sounds/a5.mp3",
+    "options": ["Resident Evil 4", "RE4", "Biohazard 4"]
+  },
+  {
+    "id": 6,
+    "title": "Enter the Gungeon",
+    "audioUrl": "/sounds/a6.mp3",
+    "options": ["Enter the Gungeon"]
+  },
+  {
+    "id": 7,
+    "title": "The Elder Scrolls III: Morrowind",
+    "audioUrl": "/sounds/a7.mp3",
+    "options": ["Morrowind", "The Elder Scrolls III: Morrowind", "TES 3", "TES III"]
+  },
+  {
+    "id": 8,
+    "title": "Castlevania: Symphony of the Night",
+    "audioUrl": "/sounds/a8.mp3",
+    "options": ["Castlevania: Symphony of the Night", "SOTN", "Castlevania SOTN"]
+  },
+  {
+    "id": 9,
+    "title": "Alien: Isolation",
+    "audioUrl": "/sounds/a9.mp3",
+    "options": ["Alien: Isolation", "Alien Isolation"]
+  },
+  {
+    "id": 10,
+    "title": "Duke Nukem 3D",
+    "audioUrl": "/sounds/a10.mp3",
+    "options": ["Duke Nukem 3D", "Duke Nukem"]
+  },
+  {
+    "id": 11,
+    "title": "Tony Hawk's Pro Skater",
+    "audioUrl": "/sounds/a11.mp3",
+    "options": ["Tony Hawk's Pro Skater", "THPS", "Tony Hawk"]
+  },
+  {
+    "id": 12,
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "audioUrl": "/sounds/a12.mp3",
+    "options": ["The Legend of Zelda: Ocarina of Time", "Ocarina of Time", "OOT", "Zelda Ocarina of Time"]
+  },
+  {
+    "id": 13,
+    "title": "Final Fantasy X",
+    "audioUrl": "/sounds/a13.mp3",
+    "options": ["Final Fantasy X", "FFX", "FF10"]
+  },
+  {
+    "id": 14,
+    "title": "Dark Souls",
+    "audioUrl": "/sounds/a14.mp3",
+    "options": ["Dark Souls"]
+  },
+  {
+    "id": 15,
+    "title": "Street Fighter II",
+    "audioUrl": "/sounds/a15.mp3",
+    "options": ["Street Fighter II", "Street Fighter 2", "SF2"]
+  },
+  {
+    "id": 16,
+    "title": "Max Payne",
+    "audioUrl": "/sounds/a16.mp3",
+    "options": ["Max Payne"]
+  },
+  {
+    "id": 17,
+    "title": "System Shock 2",
+    "audioUrl": "/sounds/a17.mp3",
+    "options": ["System Shock 2"]
+  },
+  {
+    "id": 18,
+    "title": "Heroes of Might and Magic III",
+    "audioUrl": "/sounds/a18.mp3",
+    "options": ["Heroes of Might and Magic III", "Heroes 3", "HOMM3"]
+  },
+  {
+    "id": 19,
+    "title": "Super Mario World 2: Yoshi's Island",
+    "audioUrl": "/sounds/a19.mp3",
+    "options": ["Yoshi's Island", "Super Mario World 2", "SMW2"]
+  },
+  {
+    "id": 20,
+    "title": "Pokemon Red/Blue",
+    "audioUrl": "/sounds/a20.mp3",
+    "options": ["Pokemon Red", "Pokemon Blue", "Pokemon Red/Blue", "Pokemon"]
+  },
+  {
+    "id": 21,
+    "title": "Sonic the Hedgehog",
+    "audioUrl": "/sounds/a21.mp3",
+    "options": ["Sonic the Hedgehog", "Sonic", "Sonic 1"]
+  },
+  {
+    "id": 22,
+    "title": "Minecraft",
+    "audioUrl": "/sounds/a22.mp3",
+    "options": ["Minecraft"]
+  },
+  {
+    "id": 23,
+    "title": "Super Smash Bros. Melee",
+    "audioUrl": "/sounds/a23.mp3",
+    "options": ["Super Smash Bros. Melee", "Melee", "SSBM"]
+  },
+  {
+    "id": 24,
+    "title": "The Sims",
+    "audioUrl": "/sounds/a24.mp3",
+    "options": ["The Sims", "Sims 1"]
+  },
+  {
+    "id": 25,
+    "title": "Pac-Man",
+    "audioUrl": "/sounds/a25.mp3",
+    "options": ["Pac-Man", "Pacman"]
+  },
+  {
+    "id": 26,
+    "title": "Fortnite Battle Royale",
+    "audioUrl": "/sounds/a26.mp3",
+    "options": ["Fortnite", "Fortnite Battle Royale"]
+  },
+  {
+    "id": 27,
+    "title": "Mario Kart Wii",
+    "audioUrl": "/sounds/a27.mp3",
+    "options": ["Mario Kart Wii"]
+  },
+  {
+    "id": 28,
+    "title": "Age of Empires II",
+    "audioUrl": "/sounds/a28.mp3",
+    "options": ["Age of Empires II", "Age of Empires 2", "AOE2"]
+  },
+  {
+    "id": 29,
+    "title": "Heavy Rain",
+    "audioUrl": "/sounds/a29.mp3",
+    "options": ["Heavy Rain"]
+  },
+  {
+    "id": 30,
+    "title": "Papers, Please",
+    "audioUrl": "/sounds/a30.mp3",
+    "options": ["Papers Please", "Papers, Please"]
+  },
+  {
+    "id": 31,
+    "title": "Counter-Strike: Global Offensive",
+    "audioUrl": "/sounds/a31.mp3",
+    "options": ["Counter-Strike: Global Offensive", "CSGO", "CS:GO", "Counter Strike"]
+  },
+  {
+    "id": 32,
+    "title": "Resident Evil 2",
+    "audioUrl": "/sounds/a32.mp3",
+    "options": ["Resident Evil 2", "RE2", "Biohazard 2"]
+  },
+  {
+    "id": 33,
+    "title": "StarCraft",
+    "audioUrl": "/sounds/a33.mp3",
+    "options": ["StarCraft", "Star Craft"]
+  },
+  {
+    "id": 34,
+    "title": "Tomb Raider",
+    "audioUrl": "/sounds/a34.mp3",
+    "options": ["Tomb Raider"]
+  },
+  {
+    "id": 35,
+    "title": "Super Metroid",
+    "audioUrl": "/sounds/a35.mp3",
+    "options": ["Super Metroid", "Metroid 3"]
+  },
+  {
+    "id": 36,
+    "title": "Grand Theft Auto: San Andreas",
+    "audioUrl": "/sounds/a36.mp3",
+    "options": ["Grand Theft Auto: San Andreas", "GTA San Andreas", "GTA SA"]
+  },
+  {
+    "id": 37,
+    "title": "Luigi's Mansion",
+    "audioUrl": "/sounds/a37.mp3",
+    "options": ["Luigi's Mansion", "Luigis Mansion"]
+  },
+  {
+    "id": 38,
+    "title": "Untitled Goose Game",
+    "audioUrl": "/sounds/a38.mp3",
+    "options": ["Untitled Goose Game", "Goose Game"]
+  },
+  {
+    "id": 39,
+    "title": "Fallout",
+    "audioUrl": "/sounds/a39.mp3",
+    "options": ["Fallout", "Fallout 1"]
+  },
+  {
+    "id": 40,
+    "title": "Rocket League",
+    "audioUrl": "/sounds/a40.mp3",
+    "options": ["Rocket League"]
+  },
+  {
+    "id": 41,
+    "title": "Star Fox 64",
+    "audioUrl": "/sounds/a41.mp3",
+    "options": ["Star Fox 64", "Starfox 64", "Lylat Wars"]
+  },
+  {
+    "id": 42,
+    "title": "Portal",
+    "audioUrl": "/sounds/a42.mp3",
+    "options": ["Portal", "Portal 1"]
+  },
+  {
+    "id": 43,
+    "title": "Crash Bandicoot",
+    "audioUrl": "/sounds/a43.mp3",
+    "options": ["Crash Bandicoot", "Crash"]
+  },
+  {
+    "id": 44,
+    "title": "Silent Hill 2",
+    "audioUrl": "/sounds/a44.mp3",
+    "options": ["Silent Hill 2"]
+  },
+  {
+    "id": 45,
+    "title": "Diablo II: Lord of Destruction",
+    "audioUrl": "/sounds/a45.mp3",
+    "options": ["Diablo II", "Diablo 2", "Lord of Destruction", "Diablo II: Lord of Destruction"]
+  },
+  {
+    "id": 46,
+    "title": "Mortal Kombat II",
+    "audioUrl": "/sounds/a46.mp3",
+    "options": ["Mortal Kombat II", "Mortal Kombat 2", "MK2"]
+  },
+  {
+    "id": 47,
+    "title": "Duck Hunt",
+    "audioUrl": "/sounds/a47.mp3",
+    "options": ["Duck Hunt"]
+  },
+  {
+    "id": 48,
+    "title": "PaRappa the Rapper",
+    "audioUrl": "/sounds/a48.mp3",
+    "options": ["PaRappa the Rapper", "Parappa", "Parappa the Rapper"]
+  },
+  {
+    "id": 49,
+    "title": "The Binding of Isaac: Rebirth",
+    "audioUrl": "/sounds/a49.mp3",
+    "options": ["The Binding of Isaac", "Binding of Isaac", "Isaac", "Rebirth"]
+  },
+  {
+    "id": 50,
+    "title": "Animal Crossing: New Leaf",
+    "audioUrl": "/sounds/a50.mp3",
+    "options": ["Animal Crossing", "Animal Crossing: New Leaf", "New Leaf"]
+  },
+  {
+    "id": 51,
+    "title": "Halo: Combat Evolved",
+    "audioUrl": "/sounds/a51.mp3",
+    "options": ["Halo", "Halo: Combat Evolved", "Halo 1", "Halo CE"]
+  },
+  {
+    "id": 52,
+    "title": "Overwatch",
+    "audioUrl": "/sounds/a52.mp3",
+    "options": ["Overwatch", "OW"]
+  },
+  {
+    "id": 53,
+    "title": "Metal Gear Solid",
+    "audioUrl": "/sounds/a53.mp3",
+    "options": ["Metal Gear Solid", "MGS", "Metal Gear"]
+  },
+  {
+    "id": 54,
+    "title": "RollerCoaster Tycoon",
+    "audioUrl": "/sounds/a54.mp3",
+    "options": ["RollerCoaster Tycoon", "Roller Coaster Tycoon", "RCT"]
+  },
+  {
+    "id": 55,
+    "title": "Pikmin",
+    "audioUrl": "/sounds/a55.mp3",
+    "options": ["Pikmin", "Pikmin 1"]
+  },
+  {
+    "id": 56,
+    "title": "Quake",
+    "audioUrl": "/sounds/a56.mp3",
+    "options": ["Quake", "Quake 1"]
+  },
+  {
+    "id": 57,
+    "title": "Oddworld: Abe's Oddysee",
+    "audioUrl": "/sounds/a57.mp3",
+    "options": ["Oddworld", "Abe's Oddysee", "Abes Oddysee", "Oddworld: Abe's Oddysee"]
+  },
+  {
+    "id": 58,
+    "title": "Final Fantasy VII",
+    "audioUrl": "/sounds/a58.mp3",
+    "options": ["Final Fantasy VII", "Final Fantasy 7", "FF7", "FFVII"]
+  },
+  {
+    "id": 59,
+    "title": "Cuphead",
+    "audioUrl": "/sounds/a59.mp3",
+    "options": ["Cuphead"]
+  },
+  {
+    "id": 60,
+    "title": "Sega Rally Championship",
+    "audioUrl": "/sounds/a60.mp3",
+    "options": ["Sega Rally", "Sega Rally Championship"]
   }
 ]

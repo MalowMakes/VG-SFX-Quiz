@@ -27,6 +27,15 @@ app.get('/api/game/random', (req, res) => {
   }
 });
 
+app.get('/api/game/all', (req, res) => {
+  try {
+    const games = getGames();
+    res.json(games);
+  } catch (err) {
+    res.status(500).send("Error reading games file");
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
