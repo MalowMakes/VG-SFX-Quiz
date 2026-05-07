@@ -1,0 +1,30 @@
+.quiz-input {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0;
+    border-left: 2px solid #2f3136;
+    caret-color: white;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    background-color: #b9bbbe;
+    color: #ff4757 !important;
+}
+
+/* User got it right */
+.input-correct {
+    background-color: #d4edda !important;
+    color: #155724 !important;
+}
+
+/* User gave up and this was revealed */
+.input-revealed {
+    background-color: #e4b0af !important;
+    color: #d63031 !important;
+}
+
+/* Prevent the browser from graying out disabled text */
+.quiz-input:disabled {
+    opacity: 1;
+    -webkit-text-fill-color: currentColor;
+}

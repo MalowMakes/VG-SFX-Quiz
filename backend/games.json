@@ -39,7 +39,7 @@
     "id": 7,
     "title": "The Elder Scrolls III: Morrowind",
     "audioUrl": "/sounds/a7.mp3",
-    "options": ["Morrowind", "The Elder Scrolls III: Morrowind", "TES 3", "TES III"]
+    "options": ["The Elder Scrolls III: Morrowind","Morrowind", "TES 3", "TES III"]
   },
   {
     "id": 8,
@@ -111,13 +111,13 @@
     "id": 19,
     "title": "Super Mario World 2: Yoshi's Island",
     "audioUrl": "/sounds/a19.mp3",
-    "options": ["Yoshi's Island", "Super Mario World 2", "SMW2"]
+    "options": ["Super Mario World 2: Yoshi's Island", "Yoshi's Island", "Yoshis Island", "Super Mario World 2", "SMW2"]
   },
   {
     "id": 20,
     "title": "Pokemon Red/Blue",
     "audioUrl": "/sounds/a20.mp3",
-    "options": ["Pokemon Red", "Pokemon Blue", "Pokemon Red/Blue", "Pokemon"]
+    "options": ["Pokemon Red/Blue","Pokemon Red", "Pokemon Blue", "Pokemon"]
   },
   {
     "id": 21,
@@ -153,7 +153,7 @@
     "id": 26,
     "title": "Fortnite Battle Royale",
     "audioUrl": "/sounds/a26.mp3",
-    "options": ["Fortnite", "Fortnite Battle Royale"]
+    "options": ["Fortnite Battle Royale", "Fortnite"]
   },
   {
     "id": 27,
@@ -177,13 +177,13 @@
     "id": 30,
     "title": "Papers, Please",
     "audioUrl": "/sounds/a30.mp3",
-    "options": ["Papers Please", "Papers, Please"]
+    "options": ["Papers, Please", "Papers Please"]
   },
   {
     "id": 31,
     "title": "Counter-Strike: Global Offensive",
     "audioUrl": "/sounds/a31.mp3",
-    "options": ["Counter-Strike: Global Offensive", "CSGO", "CS:GO", "Counter Strike"]
+    "options": ["Counter-Strike: Global Offensive", "CSGO", "CS:GO", "Counter-Strike 2", "CS2", "CS 2"]
   },
   {
     "id": 32,
@@ -267,7 +267,7 @@
     "id": 45,
     "title": "Diablo II: Lord of Destruction",
     "audioUrl": "/sounds/a45.mp3",
-    "options": ["Diablo II", "Diablo 2", "Lord of Destruction", "Diablo II: Lord of Destruction"]
+    "options": ["Diablo II: Lord of Destruction","Diablo II", "Diablo 2", "Lord of Destruction"]
   },
   {
     "id": 46,
@@ -291,13 +291,13 @@
     "id": 49,
     "title": "The Binding of Isaac: Rebirth",
     "audioUrl": "/sounds/a49.mp3",
-    "options": ["The Binding of Isaac", "Binding of Isaac", "Isaac", "Rebirth"]
+    "options": ["The Binding of Isaac: Rebirth", "The Binding of Isaac", "Binding of Isaac", "Isaac", "Rebirth"]
   },
   {
     "id": 50,
     "title": "Animal Crossing: New Leaf",
     "audioUrl": "/sounds/a50.mp3",
-    "options": ["Animal Crossing", "Animal Crossing: New Leaf", "New Leaf"]
+    "options": ["Animal Crossing: New Leaf", "Animal Crossing", "Animal Crossing New Leaf", "New Leaf"]
   },
   {
     "id": 51,
@@ -309,7 +309,7 @@
     "id": 52,
     "title": "Overwatch",
     "audioUrl": "/sounds/a52.mp3",
-    "options": ["Overwatch", "OW"]
+    "options": ["Overwatch", "OW", "Overwatch 2", "OW2"]
   },
   {
     "id": 53,
@@ -357,6 +357,6 @@
     "id": 60,
     "title": "Sega Rally Championship",
     "audioUrl": "/sounds/a60.mp3",
-    "options": ["Sega Rally", "Sega Rally Championship"]
+    "options": ["Sega Rally Championship","Sega Rally"]
   }
 ]

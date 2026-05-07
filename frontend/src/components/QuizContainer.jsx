@@ -2,7 +2,7 @@ import React from 'react'
 
 import QuizElement from './QuizElement'
 
-const QuizContainer = ({ games, playAudio, }) => (
+const QuizContainer = ({ games, onSolved, playAudio, revealAll }) => (
   <section className='Quiz-main'>
     {games.length === 0 && <p>Loading...</p>}
     {games.map((s, i) => (
@@ -12,6 +12,8 @@ const QuizContainer = ({ games, playAudio, }) => (
         audioUrl={s.audioUrl}
         playAudio={playAudio}
         options={s.options}
+        onSolved={onSolved}
+        revealAll={revealAll}
       />
     ))}
   </section>

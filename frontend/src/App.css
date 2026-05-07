@@ -1,12 +1,67 @@
-input {
-  width: 100%;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #ce160e;
-  caret-color: black;
-  background-color: #b9bbbe;
-  border: 0;
-  border-left: 2px solid #2f3136;
-  border-radius: 0 15px 15px 0;
-  box-sizing: border-box;
+.score-header {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 10px;
+    z-index: 100;
+    border-bottom: 2px solid var(--border);
+    justify-content: center;
+    align-items: center;
+}
+
+.score-bubble {
+    background: var(--accent);
+    color: white;
+    width: 80px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-right:auto;
+    margin-left:auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow);
+}
+
+.give-up-footer {
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.give-up-btn {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.give-up-btn:hover {
+    background: #ff6b81;
+}
+
+
+/* MOBILE DEFAULT: 1 column */
+.Quiz-main {
+    display: grid;
+    padding: 20px;
+}
+
+/* TABLET: 2 or 3 columns */
+@media (min-width: 600px) {
+    .Quiz-main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* DESKTOP: 5 columns */
+@media (min-width: 1024px) {
+    .Quiz-main {
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
