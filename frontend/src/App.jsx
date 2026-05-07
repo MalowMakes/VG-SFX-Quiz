@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import AudioPlayer from './Services/AudioPlayer'
+import QuizContainer from './components/QuizContainer'
+
 
 function App() {
   const [games, setGames] = useState([]);
@@ -30,33 +33,13 @@ function App() {
     setUserAnswers(prev => ({ ...prev, [id]: value }));
   };
 
+
   if (!games.length) return <div>Loading sound...</div>;
 
   return (
-    <div className="quiz-container">
+    <div>
       <h1>Video Game Sound Challenge</h1>
-      <div className="grid">
-        {games.map((game) => {
-          const isCorrect = game.options.some(opt =>
-            opt.toLowerCase().trim() === (userAnswers[game.id] || "").toLowerCase().trim()
-          );
-
-          return (
-            <div key={game.id} className={`card ${isCorrect ? 'locked' : ''}`}>
-              <audio controls src={`${API_BASE}${game.audioUrl}`} />
-              <input
-                type="text"
-                placeholder="Guess the video game..."
-                value={userAnswers[game.id]}
-                disabled={isCorrect}
-                onChange={(e) => handleInputChange(game.id, e.target.value, game.options)}
-                className={isCorrect ? 'correct-input' : ''}
-              />
-              {isCorrect && <span className="badge">✅ Correct!</span>}
-            </div>
-          );
-        })}
-      </div>
+      <QuizContainer games={games} playAudio={AudioPlayer.playAudio} />
     </div>
   );
 }

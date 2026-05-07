@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Super Mario Bros.",
     "audioUrl": "/sounds/a1.mp3",
-    "options": ["Super Mario Bros.", "Mario", "SMB"]
+    "options": ["Super Mario Bros.", "Super Mario Bros", "SMB"]
   },
   {
     "id": 2,
