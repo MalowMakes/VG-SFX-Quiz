@@ -15,36 +15,12 @@
     width: 80px;
     padding: 10px 20px;
     border-radius: 50px;
-    margin-right:auto;
-    margin-left:auto;
+    margin-right: auto;
+    margin-left: auto;
     font-weight: bold;
     font-size: 1.2rem;
     box-shadow: var(--shadow);
 }
-
-.give-up-footer {
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: inherit;
-}
-
-.give-up-btn {
-    background: #ff4757;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: inherit;
-}
-
-.give-up-btn:hover {
-    background: #ff6b81;
-}
-
 
 /* MOBILE DEFAULT: 1 column */
 .Quiz-main {

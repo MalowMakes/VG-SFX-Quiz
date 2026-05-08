@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react'
-import './App.css'
+import { useRef } from 'react';
 import AudioPlayer from './Services/AudioPlayer'
 import QuizContainer from './components/QuizContainer'
+import QuizFooter from './components/QuizFooter'
+import './App.css'
 
 
 function App() {
   const [games, setGames] = useState([]); // List of games from JSON
   const [solvedList, setSolvedList] = useState([]); // Track solved games by ID
   const [isGivenUp, setIsGivenUp] = useState(false); // Track if user has given up on current quiz
+  const [holdProgress, setHoldProgress] = useState(0); // Track progress for hold-to-reveal feature
   const API_BASE = 'http://localhost:3001';
 
   useEffect(() => {
@@ -49,13 +52,10 @@ function App() {
         playAudio={AudioPlayer.playAudio}
         revealAll={isGivenUp} />
 
-      <footer className='give-up-footer'>
-        {!isGivenUp ? (
-          <button className="give-up-btn" onClick={handleGiveUp}>I Give Up!</button>
-        ) : (
-          <h2 className="game-over">Quiz Ended</h2>
-        )}
-      </footer>
+      <QuizFooter
+        onGiveUp={() => setIsGivenUp(true)}
+        isGivenUp={isGivenUp}
+      />
     </div>
   );
 }
