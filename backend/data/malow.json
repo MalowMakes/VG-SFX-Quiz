@@ -1,8 +1,554 @@
 [
   {
-    "id": 1,
-    "title": "Super Mario Bros.",
-    "audioUrl": "/sounds/a1.mp3",
-    "options": ["Super Mario Bros.", "Super Mario Bros", "SMB"]
+    "id": "1",
+    "title": "Outer Wilds",
+    "audioUrl": "/sounds/b1.mp3",
+    "options": [
+      "Outer Wilds"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Blue Prince",
+    "audioUrl": "/sounds/b2.mp3",
+    "options": [
+      "Blue Prince"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "It Takes Two",
+    "audioUrl": "/sounds/b3.mp3",
+    "options": [
+      "It Takes Two"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Garry's Mod",
+    "audioUrl": "/sounds/b4.mp3",
+    "options": [
+      "Garry's Mod",
+      "GMod"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Deadlock",
+    "audioUrl": "/sounds/b5.mp3",
+    "options": [
+      "Deadlock"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Hitman",
+    "audioUrl": "/sounds/b6.mp3",
+    "options": [
+      "Hitman",
+      "Agent 47"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Cook, Serve, Delicious",
+    "audioUrl": "/sounds/b7.mp3",
+    "options": [
+      "Cook, Serve, Delicious",
+      "Cook Serve Delicious",
+      "CSD"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "COD Zombies",
+    "audioUrl": "/sounds/b8.mp3",
+    "options": [
+      "COD Zombies",
+      "Call of Duty",
+      "Zombies",
+      "Call of Duty Zombies",
+      "Call of Duty: Zombies"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Shovel Knight",
+    "audioUrl": "/sounds/b9.mp3",
+    "options": [
+      "Shovel Knight"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Clair Obscura: Expedition 33",
+    "audioUrl": "/sounds/b10.mp3",
+    "options": [
+      "Clair Obscura: Expedition 33",
+      "Expedition 33",
+      "E33"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "PEAK",
+    "audioUrl": "/sounds/b11.mp3",
+    "options": [
+      "PEAK"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "League of Legends",
+    "audioUrl": "/sounds/b12.mp3",
+    "options": [
+      "League of Legends",
+      "LoL",
+      "League"
+    ]
+  },
+  {
+    "id": " 13",
+    "title": "Nintendo Land",
+    "audioUrl": "/sounds/b13.mp3",
+    "options": [
+      "Nintendo Land",
+      "Nintendoland",
+      "Mario Chase"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Elden Ring",
+    "audioUrl": "/sounds/b14.mp3",
+    "options": [
+      "Elden Ring"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Spelunky 2",
+    "audioUrl": "/sounds/b15.mp3",
+    "options": [
+      "Spelunky 2"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Cookie Clicker",
+    "audioUrl": "/sounds/b16.mp3",
+    "options": [
+      "Cookie Clicker"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Balatro",
+    "audioUrl": "/sounds/b17.mp3",
+    "options": [
+      "Balatro"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Bugsnax",
+    "audioUrl": "/sounds/b18.mp3",
+    "options": [
+      "Bugsnax"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Call of Duty: Modern Warfare 2",
+    "audioUrl": "/sounds/b19.mp3",
+    "options": [
+      "Call of Duty: Modern Warfare 2",
+      "MW2",
+      "Modern Warfare 2"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Abiotic Factor",
+    "audioUrl": "/sounds/b20.mp3",
+    "options": [
+      "Abiotic Factor"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Warioware: Smooth Moves",
+    "audioUrl": "/sounds/b21.mp3",
+    "options": [
+      "Warioware: Smooth Moves",
+      "Warioware Smooth Moves",
+      "Smooth Moves"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Pizza Tower",
+    "audioUrl": "/sounds/b22.mp3",
+    "options": [
+      "Pizza Tower"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Wii Party",
+    "audioUrl": "/sounds/b23.mp3",
+    "options": [
+      "Wii Party"
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Stanley Parable",
+    "audioUrl": "/sounds/b24.mp3",
+    "options": [
+      "Stanley Parable",
+      "The Stanley Parable"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Risk of Rain 2",
+    "audioUrl": "/sounds/b25.mp3",
+    "options": [
+      "Risk of Rain 2",
+      "ROR2"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Hollow Knight: Silksong",
+    "audioUrl": "/sounds/b26.mp3",
+    "options": [
+      "Hollow Knight: Silksong",
+      "Silksong"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Speedrunners",
+    "audioUrl": "/sounds/b27.mp3",
+    "options": [
+      "Speedrunners"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Destiny 2",
+    "audioUrl": "/sounds/b28.mp3",
+    "options": [
+      "Destiny 2"
+    ]
+  },
+  {
+    "id": "29",
+    "title": "Sly 2: Band of Thieves",
+    "audioUrl": "/sounds/b29.mp3",
+    "options": [
+      "Sly 2: Band of Thieves",
+      "Sly 2",
+      "Sly Cooper 2"
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Payday 2",
+    "audioUrl": "/sounds/b30.mp3",
+    "options": [
+      "Payday 2"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Deep Rock Galactic",
+    "audioUrl": "/sounds/b31.mp3",
+    "options": [
+      "Deep Rock Galactic",
+      "DRG"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Baldur's Gate 3",
+    "audioUrl": "/sounds/b32.mp3",
+    "options": [
+      "Baldur's Gate 3",
+      "BG3"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "DBD",
+    "audioUrl": "/sounds/b33.mp3",
+    "options": [
+      "Dead by Daylight",
+      "DBD"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Toontown Online",
+    "audioUrl": "/sounds/b34.mp3",
+    "options": [
+      "Toontown Online",
+      "Toontown",
+      "TTO"
+    ]
+  },
+  {
+    "id": "35",
+    "title": "Return of the Obra Dinn",
+    "audioUrl": "/sounds/b35.mp3",
+    "options": [
+      "Return of the Obra Dinn",
+      "Obra Dinn"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Lethal League",
+    "audioUrl": "/sounds/b36.mp3",
+    "options": [
+      "Lethal League"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Friends vs Friends",
+    "audioUrl": "/sounds/b37.mp3",
+    "options": [
+      "Friends vs Friends",
+      "Friends versus Friends",
+      "FvF"
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Sid Meier's Civilization VI",
+    "audioUrl": "/sounds/b38.mp3",
+    "options": [
+      "Sid Meier's Civilization VI",
+      "Sid Meier's Civilization 6",
+      "Civ VI",
+      "Civ 6",
+      "Civilization VI",
+      "Civilization 6"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Silent Hill 2 Remake",
+    "audioUrl": "/sounds/b39.mp3",
+    "options": [
+      "Silent Hill 2 Remake",
+      "SH2 Remake",
+      "Silent Hill 2",
+      "SH2"
+    ]
+  },
+  {
+    "id": "40",
+    "title": "Fall Guys",
+    "audioUrl": "/sounds/b40.mp3",
+    "options": [
+      "Fall Guys",
+      "Fall Guys: Ultimate Knockout"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Satisfactory",
+    "audioUrl": "/sounds/b41.mp3",
+    "options": [
+      "Satisfactory"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "UFO 50",
+    "audioUrl": "/sounds/b42.mp3",
+    "options": [
+      "UFO 50"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "Punch-Out!",
+    "audioUrl": "/sounds/b43.mp3",
+    "options": [
+      "Punch-Out!",
+      "Punch-Out",
+      "Punch Out",
+      "Mike Tyson's Punch-Out"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "The Cat in the Hat",
+    "audioUrl": "/sounds/b44.mp3",
+    "options": [
+      "The Cat in the Hat",
+      "Cat in the Hat",
+      "Dr. Seuss' The Cat in the Hat"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Papa's Freezeria",
+    "audioUrl": "/sounds/b45.mp3",
+    "options": [
+      "Papa's Freezeria",
+      "Papas Freezeria",
+      "Freezeria"
+    ]
+  },
+  {
+    "id": "46",
+    "title": "Grand Theft Auto 5",
+    "audioUrl": "/sounds/b46.mp3",
+    "options": [
+      "Grand Theft Auto 5",
+      "GTA V",
+      "GTA 5"
+    ]
+  },
+  {
+    "id": "47",
+    "title": "Mewgenics",
+    "audioUrl": "/sounds/b47.mp3",
+    "options": [
+      "Mewgenics"
+    ]
+  },
+  {
+    "id": "48",
+    "title": "Super Mario Odyssey",
+    "audioUrl": "/sounds/b48.mp3",
+    "options": [
+      "Super Mario Odyssey",
+      "Mario Odyssey"
+    ]
+  },
+  {
+    "id": "49",
+    "title": "Ratchet & Clank Future: A Crack in Time",
+    "audioUrl": "/sounds/b49.mp3",
+    "options": [
+      "Ratchet & Clank Future: A Crack in Time",
+      "Ratchet & Clank: A Crack in Time",
+      "Ratchet & Clank Future: Crack in Time",
+      "Ratchet & Clank: Crack in Time",
+      "Ratchet & Clank Future",
+      "Ratchet & Clank 7",
+      "Ratchet and Clank Future: A Crack in Time",
+      "Ratchet and Clank: A Crack in Time",
+      "Ratchet and Clank Future: Crack in Time",
+      "Ratchet and Clank: Crack in Time",
+      "Ratchet and Clank Future",
+      "Ratchet and Clank 7",
+      "Crack in Time"
+    ]
+  },
+  {
+    "id": "50",
+    "title": "Inscryption",
+    "audioUrl": "/sounds/b50.mp3",
+    "options": [
+      "Inscryption",
+      "Inscription"
+    ]
+  },
+  {
+    "id": "51",
+    "title": "Mappy",
+    "audioUrl": "/sounds/b51.mp3",
+    "options": [
+      "Mappy"
+    ]
+  },
+  {
+    "id": "52",
+    "title": "PlateUp!",
+    "audioUrl": "/sounds/b52.mp3",
+    "options": [
+      "PlateUp!",
+      "PlateUp",
+      "Plate Up"
+    ]
+  },
+  {
+    "id": "53",
+    "title": "Team Fortress 2",
+    "audioUrl": "/sounds/b53.mp3",
+    "options": [
+      "Team Fortress 2",
+      "TF2"
+    ]
+  },
+  {
+    "id": "54",
+    "title": "Rhythm Heaven Fever",
+    "audioUrl": "/sounds/b54.mp3",
+    "options": [
+      "Rhythm Heaven Fever",
+      "Rhythm Heaven",
+      "Rhythm Heaven: Fever"
+    ]
+  },
+  {
+    "id": "55",
+    "title": "Lethal Company",
+    "audioUrl": "/sounds/b55.mp3",
+    "options": [
+      "Lethal Company"
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Little Big Planet 2",
+    "audioUrl": "/sounds/b56.mp3",
+    "options": [
+      "Little Big Planet 2",
+      "LBP2"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Animal Well",
+    "audioUrl": "/sounds/b57.mp3",
+    "options": [
+      "Animal Well"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Dispatch",
+    "audioUrl": "/sounds/b58.mp3",
+    "options": [
+      "Dispatch"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Alan Wake 2",
+    "audioUrl": "/sounds/b59.mp3",
+    "options": [
+      "Alan Wake 2",
+      "AW2"
+    ]
+  },
+  {
+    "id": "60",
+    "title": "Outer Wilds: Echoes of the Eye",
+    "audioUrl": "/sounds/b60.mp3",
+    "options": [
+      "Outer Wilds: Echoes of the Eye",
+      "Outer Wilds Echoes of the Eye",
+      "Echoes of the Eye"
+    ]
   }
 ]
