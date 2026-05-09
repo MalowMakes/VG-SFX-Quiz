@@ -1,0 +1,19 @@
+/* MOBILE DEFAULT: 1 column */
+.Quiz-main {
+    display: grid;
+    padding: 20px;
+}
+
+/* TABLET: 2 or 3 columns */
+@media (min-width: 600px) {
+    .Quiz-main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* DESKTOP: 5 columns */
+@media (min-width: 1024px) {
+    .Quiz-main {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

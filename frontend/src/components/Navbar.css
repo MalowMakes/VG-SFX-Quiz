@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.nav-links {
+  position: absolute;
+  top: 60px;
+  left: -200px; /* Hide off-screen */
+  background: #1a1a1a;
+  padding: 20px;
+  list-style: none;
+  transition: 0.3s;
+}
+
+.nav-links.open {
+  left: 0; /* Slide in */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  padding: 10px 0;
+}

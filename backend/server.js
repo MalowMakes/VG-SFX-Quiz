@@ -8,31 +8,29 @@ const PORT = 3001;
 app.use('/sounds', express.static(path.join(__dirname, 'uploads')));
 const DATA_PATH = path.join(__dirname, 'games.json');
 
-const getGames = () => {
-  const data = fs.readFileSync(DATA_PATH, 'utf-8');
-  return JSON.parse(data);
+const getGames = (category) => {
+  const allGames = JSON.parse(fs.readFileSync('./games.json', 'utf-8'));
+  return allGames.filter(game => game.category === category);
 };
 
-app.get('/api/game/random', (req, res) => {
-  try {
-    const games = getGames();
-    
-    // Pick a random index
-    const randomIndex = Math.floor(Math.random() * games.length);
-    const randomGame = games[randomIndex];
+app.get('/api/game/:category', (req, res) => {
+  const { category } = req.params;
+  console.log("Searching for category:", category); // DEBUG LOG
+  const filePath = path.join(__dirname, 'data', `${category}.json`);
 
-    res.json(randomGame);
-  } catch (err) {
-    res.status(500).json({ error: "Could not read game data" });
+  // Is the file there?
+  if (!fs.existsSync(filePath)) {
+    console.log("File not found at:", filePath); // DEBUG LOG
+    return res.status(404).json({ error: `Quiz category '${category}' not found.` });
   }
-});
 
-app.get('/api/game/all', (req, res) => {
   try {
-    const games = getGames();
+    const rawData = fs.readFileSync(filePath, 'utf-8');
+    const games = JSON.parse(rawData);
     res.json(games);
   } catch (err) {
-    res.status(500).send("Error reading games file");
+    console.error("Error reading file:", err);
+    res.status(500).send("Server error reading quiz data");
   }
 });
 

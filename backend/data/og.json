@@ -147,7 +147,7 @@
     "id": 25,
     "title": "Pac-Man",
     "audioUrl": "/sounds/a25.mp3",
-    "options": ["Pac-Man", "Pacman"]
+    "options": ["Pac-Man", "Pacman", "Pac Man"]
   },
   {
     "id": 26,
