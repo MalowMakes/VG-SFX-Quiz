@@ -277,6 +277,7 @@
     "audioUrl": "/sounds/b32.mp3",
     "options": [
       "Baldur's Gate 3",
+      "Baldurs Gate 3",
       "BG3"
     ]
   },
@@ -318,12 +319,12 @@
   },
   {
     "id": "37",
-    "title": "Friends vs Friends",
+    "title": "Helldivers 2",
     "audioUrl": "/sounds/b37.mp3",
     "options": [
-      "Friends vs Friends",
-      "Friends versus Friends",
-      "FvF"
+      "Helldivers 2",
+      "Helldivers II",
+      "HD2"
     ]
   },
   {
@@ -548,7 +549,9 @@
     "options": [
       "Outer Wilds: Echoes of the Eye",
       "Outer Wilds Echoes of the Eye",
-      "Echoes of the Eye"
+      "Echoes of the Eye",
+      "Outer Wilds DLC",
+      "Outer Wilds"
     ]
   }
 ]
